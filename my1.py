@@ -2,7 +2,7 @@
 import telebot
 from telebot import types
 
-#5789998411:AAH0Jy2mwAnSnU43dizdXEEgI5v8STLfwqU#
+
 
 name = ""
 surname = ""
