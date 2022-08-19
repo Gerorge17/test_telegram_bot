@@ -59,7 +59,7 @@ def callback_worker(call):
     if call.data == "yes":
         bot.send_message(call.message.chat.id, "Приятно познакомится! Теперь запишу в БД!")
     elif call.data == "no":
-        bot.send_message(call.message.chat.id, "Попробуем еще раз!")
+        bot.send_message(call.message.chat.id, "Попробуем еще раз!Еше раз, еще много, много раз!!!!")
         bot.send_message(call.message.chat.id, "Привет, давай познакомимся! Как тебя зовут?")
         bot.register_next_step_handler(call.message, reg_name)
 
